@@ -1,11 +1,34 @@
 /* reset */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    /* bugfix */
+    border: 200px solid rgb(252, 252, 252);
 }
 /* generalcommand */
+body{
+    background-color: #d4d4d4;
+}
 /* banner */
+.banner{
+    background-color: rgb(252, 251, 251);
+    height: 60px;
+}
+.banner img{
+    vertical-align: middle;
+}
+.titolo{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
 /* main */
 /* list */
 

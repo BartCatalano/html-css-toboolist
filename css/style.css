@@ -54,4 +54,36 @@ body{
     color: lightgray;
 }
 /* list */
+.lista {
+     list-style: none;
+}
+.lista_principale{
+    padding: 20px;
+}
+.titolo_liste{
+    font-size: 20px;
+    display: inline-block;
+}
+.checkcircle{
+    border: 1px solid lightgreen;
+    border-radius: 50%;  
+}
+.crosscircle{
+    border: 1px solid lightgreen;
+    border-radius: 50%; 
 
+}
+.editorial_circle{
+    display: inline-block;
+    background-color: rgb(17, 161, 218);
+    padding: 4px ;
+    margin-left: 8px;
+    border: 20px;
+    height: 20px;
+    width: 10;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    
+}

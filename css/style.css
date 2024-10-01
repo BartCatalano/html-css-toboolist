@@ -9,8 +9,7 @@
     width: 80%;
     max-width: 1200px;
     margin: 40px auto;
-    /* bugfix */
-    border: 200px solid rgb(252, 252, 252);
+    background-color: white;
 }
 /* generalcommand */
 body{

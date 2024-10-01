@@ -65,22 +65,34 @@ body{
     display: inline-block;
 }
 .checkcircle{
+    display: inline-block;
     border: 1px solid lightgreen;
-    border-radius: 50%;  
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+
+    color: lightgreen;  
 }
 .crosscircle{
-    border: 1px solid lightgreen;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     border-radius: 50%; 
 
 }
 .editorial_circle{
     display: inline-block;
     background-color: rgb(17, 161, 218);
-    padding: 4px ;
+    padding: 5px;
     margin-left: 8px;
-    border: 20px;
-    height: 20px;
-    width: 10;
+    height: 22px;
+    width: 60px;
     border-radius: 15px;
     color: white;
     font-size: x-small;

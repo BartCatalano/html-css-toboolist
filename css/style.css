@@ -55,15 +55,17 @@ body{
 }
 /* list */
 .lista {
-     list-style: none;
+    list-style: none;
 }
-.lista_principale{
-    padding: 20px;
+li{
+    padding: 10px 30px;
 }
 .titolo_liste{
     font-size: 20px;
     display: inline-block;
+    padding: 10px 30px;
 }
+
 .checkcircle{
     display: inline-block;
     border: 1px solid lightgreen;
@@ -99,3 +101,63 @@ body{
     text-align: center;
     line-height: 22px;
     }
+    .goals_circle{
+        display: inline-block;
+    background-color: rgb(185, 17, 218);
+    margin-left: 8px;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    line-height: 22px;
+}
+.recruiting_circle{
+    display: inline-block;
+    background-color: rgb(17, 218, 174);
+    margin-left: 8px;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    line-height: 22px;
+}
+.mobile_circle{
+    display: inline-block;
+    background-color: rgb(218, 114, 17);
+    margin-left: 8px;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    line-height: 22px;
+}
+.website_circle{
+    display: inline-block;
+    background-color: rgb(247, 198, 228);
+    margin-left: 8px;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    line-height: 22px;
+}
+.sales_circle{
+    display: inline-block;
+    background-color: rgb(156, 228, 154);
+    margin-left: 8px;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    line-height: 22px;
+}

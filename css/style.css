@@ -29,5 +29,29 @@ body{
     font-size: 40px;
 }
 /* main */
+.topmenu{
+    padding: 10px 50px;
+}
+.menubotton{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color:#548dd6;
+    border-radius: 10%;
+}
+.sectionbotton{
+    display: inline-block;
+    width: 120px;
+    height:100%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10%;   
+    background-color:white;
+    color: lightgray;
+}
 /* list */
 

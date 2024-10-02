@@ -19,6 +19,7 @@ body{
 .banner{
     background-color: rgb(252, 251, 251);
     height: 60px;
+    padding: 6px 10px;
 }
 .banner img{
     vertical-align: middle;
@@ -34,25 +35,20 @@ body{
     padding: 10px 50px;
 }
 .menubotton{
-    display: inline-block;
     width: 80px;
     height: 30px;
-    text-align: center;
-    line-height: 30px;
     color: white;
     background-color:#548dd6;
     border-radius: 10%;
+    border: 0px;
 }
 .sectionbotton{
-    display: inline-block;
     width: 120px;
-    height:100%;
-    text-align: center;
     line-height: 30px;
-    border: 1px solid lightgray;
+    border: 1px solid #d3d3d3;
     border-radius: 10%;   
     background-color:white;
-    color: lightgray;
+    color: #d3d3d3;
 }
 /* list */
 .lista {
